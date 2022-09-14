@@ -110,7 +110,6 @@ app.delete('/deletehabit/:id',deleteHabit)
 // listen
 app.listen(port, () => {
     try {
-        
         console.log('listening on port ' + port)
     } catch (err) {
         console.log(err);
